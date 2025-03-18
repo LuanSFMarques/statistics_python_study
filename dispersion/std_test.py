@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# This code calculates and compares statistical metrics (standard deviation, mean, median, and outlier bound) for multiple datasets.
+
 data1 = pd.Series([1,1,1,1,1,1,1])
 data2 = pd.Series([1,1,1,1,1,2,3])
 data3 = pd.Series([3,2,1,1,1,1,1])

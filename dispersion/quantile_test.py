@@ -1,6 +1,10 @@
 import pandas as pd
 import numpy as np
 
+# This code calculates statistical metrics for a dataset using pandas.
+# It computes the range, quartiles, interquartile range, outlier bounds,
+# variance, standard deviation, and provides a summary of the dataset.
+
 data = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 78, 110]
 
 arr = pd.Series(data)
